@@ -1,0 +1,23 @@
+{
+  "name": "solwin/quickview",
+  "description": "Quick View Magento 2 extension provides facility to add the product to Cart/Wishlist directly from popup. It will make the purchase process much faster.",
+  "suggest": {},
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Solwin\\QuickView\\": ""
+    }
+  }
+}
